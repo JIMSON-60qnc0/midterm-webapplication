@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AddProduct from './AddProduct';
+import AddProduct from './components/AddProduct/AddProduct'
+import SignUpUser from './components/SignUpUser/SignUpUser';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <AddProduct />
+    <SignUpUser />
   </React.StrictMode>,
   document.getElementById('root')
 );

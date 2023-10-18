@@ -1,5 +1,6 @@
 // src/AddProduct.js
 import React, { useState } from 'react';
+import './AddProduct.css';
 
 function AddProduct() {
   // Initialize state to store form data

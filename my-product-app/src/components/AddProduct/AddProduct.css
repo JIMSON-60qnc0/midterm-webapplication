@@ -1,0 +1,45 @@
+/* AddProduct.css */
+.add-product-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .add-product-container h2 {
+    text-align: center;
+  }
+  
+  .add-product-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-product-container label {
+    margin-bottom: 10px;
+  }
+  
+  .add-product-container input[type="text"],
+  .add-product-container input[type="number"],
+  .add-product-container textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-product-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-product-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
